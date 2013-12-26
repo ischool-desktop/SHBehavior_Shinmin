@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D2B4364-6B27-4E0B-9EAA-AD114BB0E532}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>K12.Behavior.Shinmin</RootNamespace>
+    <AssemblyName>K12.Behavior.Shinmin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\ischool_Senior with FISCA\FiscaRuntime\addmodules\SHBehavior_Shinmin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=4.4.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Documents and Settings\Dylan.Huang\桌面\系統\(FISCA)iSchool高中系統AE\modules\Campus\Aspose.Cells.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Campus.Configuration">
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\Campus\Campus.Configuration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Campus.Report">
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\Campus\Campus.Report.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=9.5.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Documents and Settings\Dylan.Huang\桌面\系統\(FISCA)iSchool高中系統AE\components\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="FISCA, Version=1.9.1.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\FISCA.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.DSAUtil">
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\FISCA.DSAUtil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.LogAgent">
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\FISCA.LogAgent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Permission, Version=1.0.0.7, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\FISCA.Permission.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Presentation">
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\FISCA.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.UDT">
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\FISCA.UDT.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IntelliSchool.DSA.ClientFramework">
+      <HintPath>..\..\..\..\..\Documents and Settings\Dylan.Huang\桌面\系統\FiscaAE高中開發2\modules\SHSchoolLoader\IntelliSchool.DSA.ClientFramework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="K12.Data">
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\K12.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="K12.Presentation">
+      <HintPath>..\..\..\ischool_Senior with FISCA\LibraryProject\K12.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SHSchool.Data">
+      <HintPath>..\..\..\..\..\Documents and Settings\Dylan.Huang\桌面\系統\FiscaAE高中開發\modules\SHSchoolLoader\SHSchool.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.API.PlugIn">
+      <HintPath>..\..\..\..\..\Documents and Settings\Dylan.Huang\桌面\系統\FiscaAE高中開發2\modules\SHSchoolLoader\SmartSchool.API.PlugIn.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.ErrorReporting">
+      <HintPath>..\..\..\..\..\Documents and Settings\Dylan.Huang\桌面\系統\FiscaAE高中開發2\modules\SHSchoolLoader\SmartSchool.ErrorReporting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttendanceStatistics\AttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceStatistics\AttendanceForm.Designer.cs">
+      <DependentUpon>AttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceStatistics\AttendanceObj.cs" />
+    <Compile Include="AttendanceStatistics\ClassRobot.cs" />
+    <Compile Include="AttendanceStatistics\GetConfigSetup.cs" />
+    <Compile Include="AttendanceStatistics\PrintSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceStatistics\PrintSettings.Designer.cs">
+      <DependentUpon>PrintSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceStudent_Night\AttendanceForm_n.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceStudent_Night\AttendanceForm_n.Designer.cs">
+      <DependentUpon>AttendanceForm_n.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceStudent_Night\AttendanceObj_n.cs" />
+    <Compile Include="AttendanceStudent_Night\ClassDataObj.cs" />
+    <Compile Include="AttendanceStudent_Night\ClassRobot_n.cs" />
+    <Compile Include="AttendanceStudent_Night\GetConfigSetup_n.cs" />
+    <Compile Include="AttendanceStudent_Night\PrintSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceStudent_Night\PrintSettings.Designer.cs">
+      <DependentUpon>PrintSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceStudent_Night\StudentDataObj.cs.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="GetClassRecord.cs" />
+    <Compile Include="ImportExport\ExportDiscipline.cs" />
+    <Compile Include="ImportExport\ExportStudentV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportExport\ExportStudentV2.designer.cs">
+      <DependentUpon>ExportStudentV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeritDemeritSpeed\MutiMeritDemerit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeritDemeritSpeed\MutiMeritDemerit.designer.cs">
+      <DependentUpon>MutiMeritDemerit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeritDemeritStatistics\ClassRobot.cs" />
+    <Compile Include="MeritDemeritStatistics\GetConfigSetup.cs" />
+    <Compile Include="MeritDemeritStatistics\MeritDemeritObj.cs" />
+    <Compile Include="MeritDemeritStatistics\MeritDemeritForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeritDemeritStatistics\MeritDemeritForm.Designer.cs">
+      <DependentUpon>MeritDemeritForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeritDemeritStatistics\PlusTheStandardDeduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeritDemeritStatistics\PlusTheStandardDeduction.Designer.cs">
+      <DependentUpon>PlusTheStandardDeduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortClassIndex.cs" />
+    <Compile Include="StudentsSpecial\StudentRobot.cs" />
+    <Compile Include="StudentsSpecial\GetConfigSetup.cs" />
+    <Compile Include="StudentsSpecial\MeritDemeritObj.cs" />
+    <Compile Include="StudentsSpecial\ReduceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsSpecial\ReduceForm.designer.cs">
+      <DependentUpon>ReduceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsSpecial\StudentsSpecialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsSpecial\StudentsSpecialForm.Designer.cs">
+      <DependentUpon>StudentsSpecialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UDT\TeacherNote.cs" />
+    <Compile Include="UDT\TeacherSetDemerit.cs" />
+    <Compile Include="UDT\TeacherSetMerit.cs" />
+    <EmbeddedResource Include="AttendanceStatistics\AttendanceForm.resx">
+      <DependentUpon>AttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceStatistics\PrintSettings.resx">
+      <DependentUpon>PrintSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceStudent_Night\AttendanceForm_n.resx">
+      <DependentUpon>AttendanceForm_n.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceStudent_Night\PrintSettings.resx">
+      <DependentUpon>PrintSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportExport\ExportStudentV2.resx">
+      <DependentUpon>ExportStudentV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeritDemeritSpeed\MutiMeritDemerit.resx">
+      <DependentUpon>MutiMeritDemerit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeritDemeritStatistics\MeritDemeritForm.resx">
+      <DependentUpon>MeritDemeritForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeritDemeritStatistics\PlusTheStandardDeduction.resx">
+      <DependentUpon>PlusTheStandardDeduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StudentsSpecial\ReduceForm.resx">
+      <DependentUpon>ReduceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentsSpecial\StudentsSpecialForm.resx">
+      <DependentUpon>StudentsSpecialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\功過相抵名單_範本.xls" />
+    <None Include="Resources\班級獎懲統計表_範本.xls" />
+    <None Include="Resources\班級缺曠統計表_範本.xls" />
+    <None Include="本模組已參考SHSchool.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WeekAbsenceReport\" />
+    <Folder Include="WeekDisciplineReport\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\execute_write_128.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
